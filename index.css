@@ -6,23 +6,18 @@ html {
     background-color: rgba(207, 142, 68, 0.808);
 } */
 
-.body {
+.yoga {
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
     background-image: url(/materials/meditate.jpg);
     background-size: cover;
     background-position: center;
-    width: 50%;
     min-height: 70vh;
     font-family: "Pacifico", cursive;
-  font-weight: 00;
   font-style: normal;   
 }
 
-.nav {
-    background-color: aquamarine;
-}
 
 button {
     border-radius: 20px;
@@ -63,6 +58,11 @@ button {
     max-width: 20%;
     color: red;
 }
+
+.text {
+    padding: 35px;
+}
+
 
 .footer{
     display: flex;
