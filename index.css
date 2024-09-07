@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Pacifico&display=swap");
 @import url('"https://fonts.gstatic.com" crossorigin');
 
+html {
+    padding: 5rem;
+    background-color: rgba(207, 142, 68, 0.808);
+}
+
 .body {
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
-    /* background-color:rgb(244, 162, 194) ; */
     background-image: url(/materials/meditate.jpg);
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
     min-height: 70vh;
     font-family: "Pacifico", cursive;
   font-weight: 00;
