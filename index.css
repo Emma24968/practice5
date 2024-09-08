@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Pacifico&display=swap");
 @import url('"https://fonts.gstatic.com" crossorigin');
-/* 
+
 html {
     padding: 5rem;
     background-color: rgba(207, 142, 68, 0.808);
-} */
+}
 
 .yoga {
     margin: 0px;
     padding: 0px;
+    border-radius: 10px;
+    padding-right: 5em;
+    padding-left: 5em;
     min-height: 100vh;
     background-image: url(/materials/meditate.jpg);
     background-size: cover;
