@@ -1,8 +1,8 @@
 @import url('"https://fonts.gstatic.com" crossorigin');
 
 html {
-    padding: 5rem;
-    background-color: rgba(207, 142, 68, 0.808);
+    padding: 3rem;
+    /* background-color: rgba(207, 142, 68, 0.808); */
 }
 
 .yoga {
@@ -12,7 +12,8 @@ html {
     padding-right: 5em;
     padding-left: 5em;
     min-height: 100vh;
-    background-image: url(/materials/meditate.jpg);
+    /* background-image: url(/materials/meditate.jpg); */
+    background-image: linear-gradient(rgba(228, 198, 226, 0.308), white);
     background-size: cover;
     background-position: center;
     min-height: 70vh;
@@ -70,4 +71,8 @@ button {
     display: flex;
     font-family: "Pacifico", cursive;
     justify-content: space-around;
+}
+
+.content1 {
+    padding: 10px;
 }
