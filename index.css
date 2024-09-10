@@ -12,13 +12,27 @@ html {
     padding-right: 5em;
     padding-left: 5em;
     min-height: 100vh;
-    /* background-image: url(/materials/meditate.jpg); */
-    background-image: linear-gradient(rgba(228, 198, 226, 0.308), white);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(#f4c2c27e, white);
     min-height: 70vh;
     font-family: "Pacifico", cursive;
-  font-style: normal;   
+    font-style: normal;   
+}
+
+.body {
+    display: flex;
+    justify-content:space-between;
+}
+
+.body2 {
+    background-image: url(/materials/img2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: end;
+    width: 30%;
+    margin-top: 25px;
+    
+
 }
 
 
